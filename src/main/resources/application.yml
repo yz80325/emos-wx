@@ -55,3 +55,15 @@ logging:
     com.yzh.emos.wx.db.dao : warn
   pattern:
     console: "%d{HH:mm:ss}  %-5level  %msg%n"
+
+##自定义属性用于JWT
+emos:
+  jwt:
+    secret: yz083025
+    expire: 5
+    cache-expire: 10
+
+##小程序
+wx:
+  app-id: wxfe52f01d35830de2
+  app-secret: b83dfc04b815919f4b00db708bfdbf81

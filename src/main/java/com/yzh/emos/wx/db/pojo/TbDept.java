@@ -15,6 +15,7 @@ public class TbDept implements Serializable {
      */
     private Integer id;
 
+
     /**
      * 参数名
      */

@@ -1,6 +1,6 @@
-package com.yzh.emos.wx.cotroller;
+package com.yzh.emos.wx.controller;
 
-import com.yzh.emos.wx.cotroller.form.TestSayHelloForm;
+import com.yzh.emos.wx.controller.form.TestSayHelloForm;
 import com.yzh.emos.wx.util.R;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
