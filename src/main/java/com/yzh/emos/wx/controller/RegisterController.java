@@ -44,6 +44,7 @@ public class RegisterController {
         Set<String> permsSet = userService.searchUserPermissions(id);
         //存储token
         saveCacheToken(token,id);
+
         return R.ok("用户注册成功").put("token",token).put("permission",permsSet);
 
     }
